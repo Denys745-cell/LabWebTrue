@@ -1,0 +1,99 @@
+/* Основні стилі для сторінки */
+
+/* Стилізація всього тіла сторінки */
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+color: #333333;
+margin: 0;
+padding: 0;
+}
+
+/* Стилізація заголовка */
+header {
+background-color: #4CAF50;
+color: #ffffff;
+text-align: center;
+padding: 20px;
+}
+
+/* Стилізація заголовків */
+h1 {
+font-size: 2.5em;
+margin: 0;
+}
+
+h2 {
+color: #4CAF50;
+margin-top: 20px;
+}
+
+/* Контейнер для основного вмісту */
+main {
+max-width: 800px;
+margin: 20px auto;
+background: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Стилізація абзаців */
+p {
+line-height: 1.6;
+margin: 15px 0;
+}
+
+/* Стилізація списків */
+ul {
+list-style-type: disc;
+padding-left: 20px;
+}
+
+/* ========================================== /
+/   Стилі для Варіанта №1 (Індивідуальні)   /
+/ ========================================== /
+/
+Вимоги варіанта 1:
+
+Непарне число (1) -> Вирівнювання за правою стороною (text-align: right)
+
+Hex колір контенту з номером варіанта -> #010101
+
+Відступи у px -> padding: 1px; margin: 1px;
+*/
+
+.variant-section {
+color: #010101;              /* Унікальний Hex колір з використанням 01 /
+text-align: right;           / Вирівнювання за правою стороною для непарного варіанта /
+padding: 1px;                / Відступи 1px за варіантом /
+margin: 1px;                 / Відступи 1px за варіантом */
+border: 1px solid #010101;
+border-radius: 6px;
+background-color: #fafafa;
+}
+
+.variant-section h2 {
+color: #010101;
+margin-top: 1px;
+margin-bottom: 1px;
+}
+
+.variant-quote {
+font-style: italic;
+font-size: 1.1em;
+margin: 1px 0;
+color: #010101;
+}
+
+.variant-author {
+font-weight: bold;
+margin: 1px 0;
+color: #010101;
+}
+
+.variant-section .section-desc {
+font-size: 0.85em;
+margin: 1px 0;
+color: #010101;
+}
